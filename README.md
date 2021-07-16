@@ -7,8 +7,8 @@
 # Starting from a pixel at (x,y) location, it explores an image pixel by pixel, 
 # by visiting the neighbouring pixels of any pixel it previously visited. 
 
-# Given a target color and a replacement color, each pixel matching the target color gets repainted the replacement color. 
-
 # if the target color isn't found, then the algorithm ends. 
 
-# Due to time constraints I won't be including a visual representation, instead I'll demonstrate that its working by having the program display the number of 'islands' of color on a white 'map'.
+# The idea is, given a target color and a replacement color, each pixel matching the target color gets repainted the replacement color. 
+
+# Due to time constraints I won't be including a visual representation, instead I'll demonstrate that its working by having the program display the number of 'islands' of color on a white 'map'
